@@ -10,13 +10,19 @@ The project aims to set up a simple monte carlo simutor that models the commisio
 <li>enable QRNG with probablity distributions</li>
 </ul>
 
-## Sources
+### Sources
 <ul>
 <li>https://towardsdatascience.com/monte-carlo-simulations-with-python-part-1-f5627b7d60b0</li>
 <li>https://pbpython.com/monte-carlo.html</li>
 <li>https://medium.com/qiskit/programming-a-quantum-computer-generating-true-random-numbers-7dd631ef10a1</li>
-<li></li>
+<li>https://quantumcomputinguk.org/tutorials/modelling-probability-distributions-in-qiskit</li>
 <li></li>
 <li></li>
 <li></li>
 </ul>
+
+### Instructions for use
+<ol>
+<li>Enter target function as a function of x in the `fucntions.py`</li>
+<li><li>
+</ol>
