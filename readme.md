@@ -23,6 +23,6 @@ The project aims to set up a simple monte carlo simutor that models the commisio
 
 ### Instructions for use
 <ol>
-<li>Enter target function as a function of x in the `fucntions.py`</li>
-<li><li>
+<li>Enter target function as a function of x in the `fucntions.py` in python language </li>
+<li>Use `python montecarlo.py --h` to understand the uses of the various flags<li>
 </ol>
