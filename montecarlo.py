@@ -24,9 +24,9 @@ def parse_input():
 def crude_monte_carlo(lower_bound, upper_bound,num_samples=5000,mode="numpy",remote='False',distribution='uniform',apitoken='0000'):
     """
     This function performs the Crude Monte Carlo for our
-    specific function f(x) on the range x=0 to x=5.
-    Notice that this bound is sufficient because f(x)
-    approaches 0 at around PI.
+    specific function f(x) on the range x=lower bound to x=upper bound
+    the choice of RNG is done according to the mode argument and the distribution is selected based on the distribution argument 
+    and are passed on to the respective RNGs
     Args:
     - num_samples (float) : number of samples
     Return:
