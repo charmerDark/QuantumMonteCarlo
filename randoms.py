@@ -13,6 +13,7 @@ def get_rand_number(min_value, max_value,distribution):
     Args:
     - min_value (float)
     - max_value (float)
+    - distributions(string)
     Return:
     - Random number between this range (float)
     """

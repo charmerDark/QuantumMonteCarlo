@@ -1,8 +1,8 @@
 ## Monte Carlo Simulator for Commision Modelling with Quantum Random Number Generator
 
-The project aims to set up a simple monte carlo simutor that models the commision rates in a company, but by using a Quantum Random Number Generator (QRNG) to produce random numbers.
+The project aims to set up a simple monte carlo simutor that models univariate functions with the help of a quantum random generator. The code is set up to allow the user to select between the default numpy RNG or a QRNG using the IBMQ quantum computing network.
 
-### STEPS
+### future Development
 <ul>
 <li> Setup simple Monte Carlo Simulator (MCS) on python (cite: source)</li>
 <li>Setp simple QRNG(cite:source)</li>
@@ -16,13 +16,11 @@ The project aims to set up a simple monte carlo simutor that models the commisio
 <li>https://pbpython.com/monte-carlo.html</li>
 <li>https://medium.com/qiskit/programming-a-quantum-computer-generating-true-random-numbers-7dd631ef10a1</li>
 <li>https://quantumcomputinguk.org/tutorials/modelling-probability-distributions-in-qiskit</li>
-<li></li>
-<li></li>
-<li></li>
+
 </ul>
 
 ### Instructions for use
 <ol>
 <li>Enter target function as a function of x in the `fucntions.py` in python language </li>
-<li>Use `python montecarlo.py --h` to understand the uses of the various flags<li>
+<li><li>
 </ol>

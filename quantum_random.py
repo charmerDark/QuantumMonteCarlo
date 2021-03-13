@@ -4,8 +4,15 @@ from qiskit.aqua.components.uncertainty_models import NormalDistribution,Uniform
 from qiskit import IBMQ
 
 def bit_from_counts(counts):
+    '''
+    function return required counts from the dictionary of counts accquired from the qiskit api
+    '''
     return [k for k, v in counts.items() if v == 1][0]
 def choice(remote,distribution,apitoken):
+    '''
+    function sets up quantum circuit of the required number of qubits as required by the ditribution and calls the remote api for IBMQ (or the inbuilt simulator for debugging)
+    and acquires results as needed.
+    '''
     bits=''
     q = QuantumRegister(10,'q')
     c = ClassicalRegister(10,'c')
