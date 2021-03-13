@@ -21,7 +21,7 @@ The project aims to set up a simple monte carlo simutor that models univariate f
 
 ### Instructions for use
 <ol>
-<li> first time users can use ```python3 -m pip install -r requirements.txt```</li>
+<li> first time users can use `python3 -m pip install -r requirements.txt`</li>
 <li>Enter target function as a function of x in the `functions.py` in python language </li>
-<li>call ```montecarlo.py --h ``` for help on how to use the simulator<li>
+<li>call `montecarlo.py --h ` for help on how to use the simulator<li>
 </ol>
