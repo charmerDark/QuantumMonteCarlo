@@ -2,12 +2,13 @@
 
 The project aims to set up a simple monte carlo simutor that models univariate functions with the help of a quantum random generator. The code is set up to allow the user to select between the default numpy RNG or a QRNG using the IBMQ quantum computing network.
 
-### future Development
+### Development plan
 <ul>
-<li> Setup simple Monte Carlo Simulator (MCS) on python (cite: source)</li>
-<li>Setp simple QRNG(cite:source)</li>
-<li>link QRNG to MCS</li>
-<li>enable QRNG with probablity distributions</li>
+<li> Setup simple Monte Carlo Simulator (MCS) on python[DONE] </li>
+<li>Setp simple QRNG[DONE]</li>
+<li>link QRNG to MCS{DONE}</li>
+<li>enable QRNG with probablity distributions<[DONE]</li>
+  <li>Study effects of QRNG on montecarlo accuracy and efficieny</li>
 </ul>
 
 ### Sources
@@ -21,7 +22,23 @@ The project aims to set up a simple monte carlo simutor that models univariate f
 
 ### Instructions for use
 <ol>
-<li> first time users can use `python3 -m pip install -r requirements.txt` </li>
-<li>Enter target function as a function of x in the `functions.py` in python language </li>
-<li>call `montecarlo.py --h` for help on how to use the simulator</li>
+<li> first time users can use 
+  
+  
+  
+  python3 -m pip install -r requirements.txt </li>
+  
+  
+  
+  
+<li>Enter target function as a function of x in the functions.py in python language </li>
+<li>call 
+  
+  
+  
+  montecarlo.py --h
+  
+  
+  
+  for help on how to use the simulator</li>
 </ol>
